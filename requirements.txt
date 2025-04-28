@@ -4,3 +4,5 @@ nltk
 groq
 numpy 
 pandas
+joblib
+scikit-learn

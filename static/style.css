@@ -1,0 +1,282 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+h2, h3 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+}
+
+input[type="email"], input[type="text"], textarea {
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+
+
+body {
+  background: linear-gradient(to right, #1f1f2e, #2e2e3f);
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+}
+
+.auth-box {
+  background: #ffffff;
+  padding: 30px 25px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+  color: #333;
+}
+
+.auth-box h2 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+.btn {
+  width: 100%;
+  background-color: #007bff;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.switch-auth {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.switch-auth a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.switch-auth a:hover {
+  text-decoration: underline;
+}
+
+/* Home style */
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: linear-gradient(to right, #1a1a2e, #16213e);
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: rgba(0,0,0,0.4);
+}
+
+header h1 {
+  font-size: 28px;
+}
+
+nav .nav-btn {
+  margin-left: 15px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  background: #007bff;
+  padding: 8px 15px;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.nav-btn:hover {
+  background: #0056b3;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.intro h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.intro p {
+  font-size: 18px;
+  max-width: 600px;
+  margin: 0 auto 30px;
+}
+
+.cta-btn {
+  background: #28a745;
+  color: white;
+  padding: 12px 25px;
+  font-size: 16px;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.cta-btn:hover {
+  background: #218838;
+}
+
+footer {
+  text-align: center;
+  padding: 15px 0;
+  background: rgba(0,0,0,0.3);
+}
+
+
+/* Signup and Login - 1
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f0f2f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  width: 350px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+p {
+  text-align: center;
+  margin-top: 20px;
+} */

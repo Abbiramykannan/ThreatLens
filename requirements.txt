@@ -2,3 +2,5 @@ Flask
 gunicorn
 nltk
 groq
+numpy 
+pandas
